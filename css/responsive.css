@@ -1,0 +1,172 @@
+@media screen and (max-width:1200px) {
+    .customize__image img {
+        max-width: 550px;
+    }
+
+    .pricing__plan {
+        height: auto;
+    }
+
+    .pricing__plan__cards {
+        flex-direction: column;
+        max-width: 600px;
+        margin: 0 auto;
+    }
+
+    .card__discription {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .pricing__plan__cards-card {
+        margin-top: 30px;
+    }
+
+    form {
+        display: none;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    header {
+        height: auto;
+    }
+
+    .offer {
+        margin: 0 auto;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .offer__img {
+        width: 400px;
+        margin-top: 20px;
+    }
+
+    .overview__icons {
+        flex-direction: column;
+
+    }
+
+    .details {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .details img {
+        width: 300px;
+
+    }
+
+    .details__section__customize {
+
+
+        height: auto;
+    }
+
+    .customize__text {
+        text-align: center;
+    }
+
+    .details__section__customize .container {
+
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .customize__image img {
+        max-width: 250px;
+    }
+
+
+
+    .testimonials__download__item {
+        flex-direction: column;
+    }
+
+    .testimonials__download__item__text {
+        text-align: center;
+
+    }
+
+    .testimonials__button {
+        margin-top: 20px;
+
+    }
+
+}
+
+.details__titles {
+    margin: 0 auto;
+}
+
+@media screen and (max-width:700px) {
+    .pricing__plan__cards {
+
+        max-width: 350px;
+
+    }
+
+    .contact__adresses {
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    address {
+        margin-top: 80px;
+    }
+
+    .contact {
+        padding-bottom: 0
+    }
+}
+
+@media screen and (max-width:560px) {
+    html {
+        font-size: 0.6px;
+    }
+
+    .row {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .offer {
+        margin: 0 auto;
+    }
+
+    .offer__button1,
+    .offer__button2 {
+        width: 120px;
+    }
+
+    .row__logo p:last-child {
+        font-size: 15px;
+    }
+
+    .offer__img {
+        width: 200px;
+
+    }
+
+    .testimonials__text {
+        font-size: 19rem;
+        line-height: 14px;
+
+    }
+
+    .cite,
+    span {
+        font-size: 19rem;
+        line-height: 14px;
+
+    }
+}
+
+@media screen and (max-width:345px) {
+    .testimonials__button:nth-child(1) {
+        margin-right: 0;
+    }
+}
