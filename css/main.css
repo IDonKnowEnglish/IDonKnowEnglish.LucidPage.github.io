@@ -115,6 +115,7 @@ ul li {
 
 
 
+
 }
 
 ul li:last-child {
@@ -133,6 +134,7 @@ ul li a:hover::after {
         transparent calc(50% - 1px),
         transparent calc(50% + 1px),
         #008ed6 calc(50% + 1px));
+
 
 
 }
@@ -400,6 +402,7 @@ ul li a:hover::after {
     top: 0;
     color: #0b93d8;
     font-family: "FontAwesome";
+    cursor: pointer;
 }
 
 .details__titles .details__icons p:nth-child(3)::after {
@@ -411,6 +414,7 @@ ul li a:hover::after {
     content: "";
     position: absolute;
     display: block;
+    top: 25%;
     width: 20px;
     height: 20px;
 
@@ -646,6 +650,7 @@ span {
     line-height: 48px;
     color: white;
     border: 1px solid #444348;
+    border-radius: 5px;
     cursor: pointer;
     transition: 0.3s;
 
@@ -806,6 +811,10 @@ span {
     line-height: 26px;
     font-weight: 400;
     text-align: center;
+}
+
+.discription_lacinia {
+    color: #008ed6;
 }
 
 .card__discription-button {
@@ -985,6 +994,7 @@ input {
     display: block;
     margin-top: 20px;
     color: white;
+    cursor: pointer;
 }
 
 input:focus::-webkit-input-placeholder {

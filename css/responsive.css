@@ -124,14 +124,18 @@
 }
 
 @media screen and (max-width:560px) {
+
+
     html {
-        font-size: 0.6px;
+        font-size: 0.8px;
     }
+
 
     .row {
         flex-wrap: wrap;
         justify-content: center;
     }
+
 
     .offer {
         margin: 0 auto;
@@ -165,7 +169,18 @@
     }
 }
 
-@media screen and (max-width:345px) {
+@media screen and (max-width:400px) {
+
+    html {
+        font-size: 0.7px
+    }
+}
+
+@media screen and (max-width:350px) {
+    html {
+        font-size: 0.6px
+    }
+
     .testimonials__button:nth-child(1) {
         margin-right: 0;
     }
