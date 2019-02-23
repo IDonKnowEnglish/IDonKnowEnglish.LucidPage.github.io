@@ -27,6 +27,10 @@
     form {
         display: none;
     }
+
+    .contact {
+        padding-bottom: 40px;
+    }
 }
 
 @media screen and (max-width:1020px) {
@@ -121,6 +125,10 @@
     .contact {
         padding-bottom: 0
     }
+
+    address::after {
+        left: 50%;
+    }
 }
 
 @media screen and (max-width:560px) {
@@ -148,6 +156,7 @@
 
     .row__logo p:last-child {
         font-size: 15px;
+        line-height: 15px;
     }
 
     .offer__img {
